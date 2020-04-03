@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/heroic-features.css" rel="stylesheet" />
+    <script>
+        function SifreKontrol() {
+             var sifre = document.getElementById('sifre');
+            var sifretekrar = document.getElementById('sifreTekrar');
+            if (sifre.value.length < 4) {
+                var hata = ' <div id="alert" class="alert alert-danger"><span>Şifre çok kısa</span></div>';
+                document.getElementById('alert').innerHTML = hata;
+             
+            }
+            
+             else {
+                
+            if (sifre.value != sifreTekrar.value)
+            {
+                var hata = '<div id="alert" class="alert alert-danger"><span>Şifreler uyumlu değil</span></div>';
+                document.getElementById('alert').innerHTML = hata;
+            }
+            else {
+                var success = '<div id="alert" class="alert alert-success"><span>Şifreler uyumlu</span></div>';
+                document.getElementById('alert').innerHTML = success;
+                window.location.href = "HomePage.html"
+            }
+            }
+
+        }
+       
+            
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+
+            <h1>Log In <span style="color:grey; font-size:25px">or</span> <a href="#">Sign Up</a></h1>
+
+            <figure>
+                <pre>
+<span id="demo"></span>
+</pre>
+            </figure>
+            <div class="container_form" style="width:1080px; height:400px; background-color:white; float:left; margin-left:300px">
+                <p>
+
+                    <input type="text" class="form-control" placeholder="Adınız Soyadınız" style="width:500px; height:40px">
+                </p>
+
+                <p>
+
+                    <input type="email" class="form-control" placeholder="Email adresiniz" style="width:500px; height:40px">
+                </p>
+                <p>
+                    <input type="text" class="form-control" id="sifre" placeholder="Şifre" style="width:500px; height:40px">
+                </p>
+                <p>
+                    <input type="text" class="form-control" id="sifreTekrar" placeholder="Şifre Tekrar" style="width:500px; height:40px; " />
+                </p>
+                <p>
+                    <button class="btn btn-success"  onclick="SifreKontrol()">Sign In</button>
+                </p>
+            </div>
+            <div id="alert"></div>
+
+        </div>
+       
+
+    </div>
+    <script src="Content/js/bootstrap.js"></script>
+</body>
+</html>
