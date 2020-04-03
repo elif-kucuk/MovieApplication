@@ -88,11 +88,15 @@
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Filmler.html" />
     <Content Include="HomePage.html" />
+    <Content Include="images\4DX.jpg" />
     <Content Include="images\Adanış.jpg" />
+    <Content Include="images\GoldClass.jpg" />
     <Content Include="images\RAN.jpg" />
+    <Content Include="images\SkyBox.jpg" />
     <Content Include="images\TOMRİS.jpg" />
     <Content Include="images\İkinciGörüşteAşk.jpg" />
     <Content Include="index.html" />
+    <Content Include="Salonlar.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
