@@ -86,7 +86,12 @@
     <Content Include="Content\js\bootstrap.bundle.min.js" />
     <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Filmler.html" />
     <Content Include="HomePage.html" />
+    <Content Include="images\Adanış.jpg" />
+    <Content Include="images\RAN.jpg" />
+    <Content Include="images\TOMRİS.jpg" />
+    <Content Include="images\İkinciGörüşteAşk.jpg" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
